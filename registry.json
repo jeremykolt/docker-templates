@@ -7,15 +7,15 @@
     "url": "https://github.com/jeremykolt/docker-templates",
     "templates": [
         {
-            "id": "internal-app",
-            "name": "Internal Application",
-            "description": "Company application stack with database",
+            "id": "handbrake",
+            "name": "HandBrake",
+            "description": "application stack",
             "version": "1.0.0",
             "author": "Jeremy Kolt",
-            "compose_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/main/internal-app/docker-compose.yml",
-            "env_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/main/internal-app/.env.example",
-            "documentation_url": "https://github.com/jeremykolt/docker-templates/tree/main/internal-app",
-            "tags": ["internal", "webapp", "postgres"]
+            "compose_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/main/handbrake/compose.yml",
+            "env_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/main/handbrake/.env.example",
+            "documentation_url": "https://github.com/jeremykolt/docker-templates/tree/main/handbrake",
+            "tags": ["internal", "webapp", "handbrake"]
         }
     ]
 }
