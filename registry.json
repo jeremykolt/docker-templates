@@ -1,0 +1,21 @@
+{
+    "$schema": "https://templates.arcane.ofkm.dev/schema.json",
+    "name": "My Docker Templates",
+    "description": "Docker templates for Arcane",
+    "version": "1.0.0",
+    "author": "Jeremy Kolt",
+    "url": "https://github.com/jeremykolt/docker-templates",
+    "templates": [
+        {
+            "id": "internal-app",
+            "name": "Internal Application",
+            "description": "Company application stack with database",
+            "version": "1.0.0",
+            "author": "Jeremy Kolt",
+            "compose_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/main/internal-app/docker-compose.yml",
+            "env_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/main/internal-app/.env.example",
+            "documentation_url": "https://github.com/jeremykolt/docker-templates/tree/main/internal-app",
+            "tags": ["internal", "webapp", "postgres"]
+        }
+    ]
+}
