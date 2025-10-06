@@ -12,7 +12,7 @@
             "description": "application stack",
             "version": "1.0.0",
             "author": "Jeremy Kolt",
-            "compose_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/refs/heads/main/handbrake/compose.yml?token=GHSAT0AAAAAADMRKSD3UC776WGC5GKD66KI2HDIICA",
+            "compose_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/refs/heads/main/handbrake/compose.yml",
             "env_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/refs/heads/main/handbrake/.env",
             "documentation_url": "https://raw.githubusercontent.com/jeremykolt/docker-templates/main/README.md",
             "tags": ["internal", "webapp", "handbrake"]
